@@ -1,6 +1,5 @@
 
-
- #!/bin/bash  
+ #!/usr/local/bin/bash  
 
 echo "SAM to BAM ..."
 samtools view -bS mysample.sam > mysample.unsorted.bam

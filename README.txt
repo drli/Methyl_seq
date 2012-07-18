@@ -1,0 +1,3 @@
+BSMAP is a short reads mapping software for bisulfite sequencing reads. Bisulfite treatment converts unmethylated Cytosines into Uracils (sequenced as Thymine) and leave methylated Cytosines unchanged, hence provides a way to study DNA cytosine methylation at single nucleotide resolution. BSMAP aligns the Ts in the reads to both Cs and Ts in the reference.
+
+RRBSMAP is a specifically designed version of BSMAP for reduced representation bisulfite sequencing (RRBS), it indexes the genome only on the enzyme digestion sites and therefore guarantees all reads were mapped to digestion sites, and greatly reduces the CPU/memory usage. 
